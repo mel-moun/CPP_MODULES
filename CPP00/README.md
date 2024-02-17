@@ -2,6 +2,7 @@ Namespace
 
 In C++, namespaces are used to organize code elements such as variables, functions, and classes into logical groups. This helps prevent naming conflicts, especially in large projects where multiple developers may be working on different parts of the codebase.
 
+```
 #include <iostream>
 
 namespace ME
@@ -27,7 +28,7 @@ int main()
 
     // print(); Compilation Error
 }
-
+```
 In the previous example:
 * We define two functions named print within separate namespaces : ME and MER.
 * Each function outputs a different message to the console.
